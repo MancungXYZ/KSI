@@ -7,8 +7,11 @@ package ksi;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author Reihan Wiyanda
+ * Identitias Kelompok
+ * Nama : Reihan Wiyanda (10119011)
+ *      : Rendy Dermawan ( 10119030)
+ *      : Diva Sabila Ramadhan (10119039)
+ * 
  */
 public class caesarcipher extends javax.swing.JFrame {
 
@@ -217,7 +220,7 @@ public class caesarcipher extends javax.swing.JFrame {
 
     private void proses_encryptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proses_encryptActionPerformed
         
-    String masukan_encrypt = i_encrypt.getText().toLowerCase();
+    String masukan_encrypt = i_encrypt.getText().toLowerCase().trim();
     int pergeseran = Integer.parseInt(n_encrypt.getText());
     
     if ((masukan_encrypt).equals("")){
@@ -245,7 +248,7 @@ public class caesarcipher extends javax.swing.JFrame {
 
     private void proses_decryptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proses_decryptActionPerformed
         // Mengambil inputan dari user
-        String masukan_decrypt = input_decrypt.getText().toLowerCase();
+        String masukan_decrypt = input_decrypt.getText().toLowerCase().trim();
         int pegeseran_decrypt = Integer.parseInt(n_decrypt.getText());
         
         // Inisialisasi 26 alphabet
