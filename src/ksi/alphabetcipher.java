@@ -7,8 +7,11 @@ package ksi;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author Reihan Wiyanda
+ * Identitias Kelompok
+ * Nama : Reihan Wiyanda (10119011)
+ *      : Rendy Dermawan ( 10119030)
+ *      : Diva Sabila Ramadhan (10119039)
+ * 
  */
 public class alphabetcipher extends javax.swing.JFrame {
 
